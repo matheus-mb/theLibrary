@@ -1,0 +1,23 @@
+@import url('header.css');
+@import url('main.css');
+@import url('formulario.css');
+@import url('responsivo.css');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,400;0,700;1,900&display=swap');
+
+:root {
+  --fonte: 'Kanit', sans-serif;
+  --font-color: #3d40a1;
+  --bg-1: #F5FFFA ;
+  --bg-2: #FFF5EE;
+}
+
+body {
+  background-color: var(--bg-1);
+  color: var(--font-color);
+  font-family: var(--fonte);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}

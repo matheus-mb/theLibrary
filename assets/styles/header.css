@@ -1,0 +1,23 @@
+.nav_list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.nav_item {
+  cursor: pointer;
+}
+
+.nome_loja {
+  text-transform: none;
+  font-weight: 900;
+  font-size: 5rem;
+}
+
+a:active {
+  color: var(--font-color);
+}

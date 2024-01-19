@@ -1,0 +1,66 @@
+.lista_filtro {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  gap: 2rem;
+  font-size: 1.5rem;
+  background-color: white;
+  box-shadow: rgb(0, 0, 0) 0px 3px 10px -5px;
+  border-radius: 48px;
+  padding: 1rem 2rem;
+  margin: 0 auto;
+  max-width: fit-content;
+}
+
+.filtro {
+  cursor: pointer;
+}
+
+.livro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 15rem;
+  margin: 2rem;
+}
+
+img {
+  width: 12rem;
+  margin: 1rem;
+  border: 2px solid rgba(128, 128, 128, 0.167);
+  padding: 0.5rem;
+}
+
+.nome_livro {
+  max-width: 100%;
+  text-align: center;
+  margin: 0;
+  font-size: 1rem;
+}
+
+.itens_catalogo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: var(--font-color); 
+}
+
+.btn_comprar {
+  padding: .7rem 4rem;
+  border: 2px solid var(--font-color);
+  border-radius: 26px;
+  background: var(--bg-1);
+  margin-top: 1rem;
+  font-weight: 700;
+  color: var(--font-color);
+}
+
+.btn_comprar:hover {
+  color: var(--bg-1);
+  background: var(--font-color);
+  cursor: pointer;
+}
